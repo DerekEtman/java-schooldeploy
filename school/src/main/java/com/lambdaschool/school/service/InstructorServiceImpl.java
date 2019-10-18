@@ -4,6 +4,7 @@ import com.lambdaschool.school.model.Instructor;
 import com.lambdaschool.school.repository.InstructorRepository;
 import io.swagger.models.auth.In;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
